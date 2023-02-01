@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class of Pumpkin Seeds</title>
+</head>
+<body style="background-color: hsl(50, 34%, 66%);">    
+    <h1> Class of Pumpkin Seeds </h1>
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSURANCE -->
+    <br>
+    <br>
+    
+    <img src='static\pumpk.jpg'>
+
+    <br><br>
+    <form method="POST" action ="/predict_class">
+        
+        <label>Area:</label>
+        <input type ="text" name ="area">
+
+        <br>
+        <br>   						
+        <label>Perimeter:</label>
+        <input type ="text" name="perimeter"> 
+
+        <br>  
+        <br>        
+        <label>Major_Axis_Length:</label>
+        <input type="text" name ="major_axis_length">
+
+        <br>
+        <br>
+
+        <label>Minor_Axis_Length:</label>
+        <input type="text" name ="minor_axis_length">
+       
+        <br>
+        <br>
+
+        <label>Convex_Area:</label>
+        <input type="text" name="convex_area">
+
+        <br>
+        <br>
+
+        <label>Equiv_Diameter:</label>
+        <input type="text" name="equiv_diameter"></select>
+        
+        <br>
+        <br>
+        <label>Eccentricity:</label>
+        <input type="text" name="eccentricity"></select>
+        
+        <br>
+        <br>
+        <label>Solidity:</label>
+        <input type="text" name="solidity"></select>
+        
+        <br>
+        <br>
+        <label>Extent:</label>
+        <input type="text" name="extent"></select>
+        
+        <br>
+        <br>
+        <label>Roundness:</label>
+        <input type="text" name="roundness"></select>
+        
+        <br>
+        <br>
+        <label>Aspect_Ration:</label>
+        <input type="text" name="aspect_ration"></select>
+        
+        <br>
+        <br>
+        <label>Compactness:</label>
+        <input type="text" name="compactness"></select>
+        
+        <br>
+        <br>
+        <input type="submit" value ="SUBMIT">
+     
+    </form>
+   
+    <br>
+    <br>
+    {{classes}}
+    
+</body>
+</html>

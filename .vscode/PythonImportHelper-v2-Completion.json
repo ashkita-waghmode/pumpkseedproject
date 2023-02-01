@@ -1,0 +1,171 @@
+[
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "PumpkinSeed",
+        "importPath": "Project_app.utils",
+        "description": "Project_app.utils",
+        "isExtraImport": true,
+        "detail": "Project_app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "config",
+        "description": "config",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "PumpkinSeed",
+        "kind": 6,
+        "importPath": "Pumpkinproject.Project_app.utils",
+        "description": "Pumpkinproject.Project_app.utils",
+        "peekOfCode": "class PumpkinSeed():\n    def __init__(self,area,perimeter,major_axis_length,minor_axis_length,convex_area,equiv_diameter,eccentricity,\n                 solidity,extent,roundness,aspect_ration,compactness):\n        self.area = area\n        self.perimeter = perimeter\n        self.major_axis_lenght = major_axis_length\n        self.minor_axis_length = minor_axis_length\n        self.convex_area = convex_area\n        self.equiv_diameter = equiv_diameter\n        self.eccentricity = eccentricity",
+        "detail": "Pumpkinproject.Project_app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "homepage",
+        "kind": 2,
+        "importPath": "Pumpkinproject.interface",
+        "description": "Pumpkinproject.interface",
+        "peekOfCode": "def homepage():\n    print('Welcome to pumpkin Seed Model')\n    return render_template('index.html')\n@app.route('/predict_class',methods=['POST'])\ndef abc():\n    data = request.form\n    area              = eval(data['area'])\n    perimeter         = eval(data['perimeter'])\n    major_axis_length = eval(data['major_axis_length'])\n    minor_axis_length = eval(data['minor_axis_length'])",
+        "detail": "Pumpkinproject.interface",
+        "documentation": {}
+    },
+    {
+        "label": "abc",
+        "kind": 2,
+        "importPath": "Pumpkinproject.interface",
+        "description": "Pumpkinproject.interface",
+        "peekOfCode": "def abc():\n    data = request.form\n    area              = eval(data['area'])\n    perimeter         = eval(data['perimeter'])\n    major_axis_length = eval(data['major_axis_length'])\n    minor_axis_length = eval(data['minor_axis_length'])\n    convex_area       = eval(data['convex_area'])\n    equiv_diameter    = eval(data['equiv_diameter'])\n    eccentricity      = eval(data['eccentricity'])\n    solidity          = eval(data['solidity'])",
+        "detail": "Pumpkinproject.interface",
+        "documentation": {}
+    },
+    {
+        "label": "homepage",
+        "kind": 2,
+        "importPath": "interface",
+        "description": "interface",
+        "peekOfCode": "def homepage():\n    print('Welcome to pumpkin Seed Model')\n    return render_template('index.html')\n@app.route('/predict_class',methods=['POST'])\ndef abc():\n    data = request.form\n    area              = eval(data['area'])\n    perimeter         = eval(data['perimeter'])\n    major_axis_length = eval(data['major_axis_length'])\n    minor_axis_length = eval(data['minor_axis_length'])",
+        "detail": "interface",
+        "documentation": {}
+    },
+    {
+        "label": "abc",
+        "kind": 2,
+        "importPath": "interface",
+        "description": "interface",
+        "peekOfCode": "def abc():\n    data = request.form\n    area              = eval(data['area'])\n    perimeter         = eval(data['perimeter'])\n    major_axis_length = eval(data['major_axis_length'])\n    minor_axis_length = eval(data['minor_axis_length'])\n    convex_area       = eval(data['convex_area'])\n    equiv_diameter    = eval(data['equiv_diameter'])\n    eccentricity      = eval(data['eccentricity'])\n    solidity          = eval(data['solidity'])",
+        "detail": "interface",
+        "documentation": {}
+    }
+]
